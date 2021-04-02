@@ -14,7 +14,7 @@ const admin = require('firebase-admin');
 app.use(cors());
 app.use(express.json());
 
-const serviceAccount = require("./configs/phonomania-e5c3e-firebase-adminsdk-b4abc-b703f3f804.json");
+const serviceAccount = require("./phonomania-e5c3e-firebase-adminsdk-b4abc-b703f3f804.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
