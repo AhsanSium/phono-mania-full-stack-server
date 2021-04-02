@@ -2,6 +2,9 @@
   "name": "phono-mania-server",
   "version": "1.0.0",
   "description": "simple spwa server",
+  "engines": {
+    "node": "14.15.3"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -15,7 +18,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "firebase-admin": "^9.6.0",
-    "mongo": "^0.1.0"
+    "mongodb": "^6.14.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
