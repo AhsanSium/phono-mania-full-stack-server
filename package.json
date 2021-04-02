@@ -2,6 +2,9 @@
   "name": "phono-mania-server",
   "version": "1.0.0",
   "description": "simple spwa server",
+  "engines": {
+    "node": "14.15.3"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
